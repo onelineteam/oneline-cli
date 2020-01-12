@@ -1,0 +1,29 @@
+{
+  "name": "@oneline/cli",
+  "version": "0.0.2",
+  "main": "dist/index.js",
+  "repository": "https://keep2zero@github.com/keep2zero/oneline-cli.git",
+  "author": "keep2zero <towaywu@gmail.com>",
+  "license": "MIT",
+  "publishConfig": {
+    "access": "public"
+  },
+  "scripts": {
+    "watch": "tsc --watch"
+  },
+  "dependencies": {
+    "@types/node": "^13.1.6",
+    "commander": "^4.1.0",
+    "fs-readdir-recursive": "^1.1.0",
+    "glob": "^7.1.6",
+    "make-dir": "^3.0.0",
+    "slash": "^3.0.0",
+    "typescript": "^3.7.4"
+  },
+  "bin": {
+    "oneline": "./bin/index.js"
+  },
+  "devDependencies": {
+    "@oneline/cli": "^0.0.1"
+  }
+}
