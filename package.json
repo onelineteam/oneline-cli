@@ -1,6 +1,6 @@
 {
   "name": "@oneline/cli",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "main": "dist/index.js",
   "repository": "https://keep2zero@github.com/keep2zero/oneline-cli.git",
   "author": "keep2zero <towaywu@gmail.com>",
@@ -24,6 +24,6 @@
     "oneline": "./bin/index.js"
   },
   "devDependencies": {
-    "@oneline/cli": "^0.0.1"
+    "@oneline/cli": "^0.0.4"
   }
 }
